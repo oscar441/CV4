@@ -68,7 +68,7 @@ a{
     color: rgb(51, 0, 255);
 }
 
-table, th, td {
+table, td {
     color: blue;
     margin: 0 auto;
     border: 1px solid white;
@@ -85,7 +85,12 @@ th{
     color: white;
     background-color: #22438c;
     font-weight: bold;
-    
+    margin: 0 auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 0.6cm;
+    font-family: 'Times New Roman';
 }
 
 tr:nth-child(even) {
