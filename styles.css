@@ -83,9 +83,9 @@ th{
 }
 
 table2, th, td {
-    color: blue;
+    color: rgb(255, 0, 157);
     margin: 0 auto;
-    border: 1px solid white;
+    border: 1px solid rgb(216, 216, 10);
     border-collapse: collapse;
     padding: 10px;
     font-size: 0.8cm;
