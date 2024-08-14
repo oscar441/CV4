@@ -78,6 +78,10 @@ table, th, td {
     font-family: 'Times New Roman';
 }
 
+td{
+    color: white;
+}
+
 table2, th, td {
     color: blue;
     margin: 0 auto;
