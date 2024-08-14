@@ -68,7 +68,7 @@ a{
     color: rgb(51, 0, 255);
 }
 
-table1, th, td {
+table, th, td {
     color: blue;
     margin: 0 auto;
     border: 1px solid white;
@@ -80,7 +80,7 @@ table1, th, td {
 
 
 
-table2, th, td {
+table1, th, td {
     color: rgb(255, 0, 157);
     margin: 0 auto;
     border: 1px solid rgb(22, 22, 11);
