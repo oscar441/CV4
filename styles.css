@@ -74,11 +74,11 @@ table, th, td {
     border: 1px solid white;
     border-collapse: collapse;
     padding: 10px;
-    font-size: 0.8cm;
+    font-size: 0.6cm;
     font-family: 'Times New Roman';
 }
 
-td{
+th{
     color: white;
 }
 
