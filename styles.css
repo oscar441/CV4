@@ -78,9 +78,7 @@ table, th, td {
     font-family: 'Times New Roman';
 }
 
-th{
-    color: white;
-}
+
 
 table2, th, td {
     color: rgb(255, 0, 157);
@@ -93,6 +91,7 @@ table2, th, td {
 }
 
 th{
+    color: white;
     background-color: #1796d1;
     font-weight: bold;
     
