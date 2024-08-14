@@ -83,7 +83,7 @@ table, th, td {
 table2, th, td {
     color: rgb(255, 0, 157);
     margin: 0 auto;
-    border: 1px solid rgb(216, 216, 10);
+    border: 1px solid rgb(22, 22, 11);
     border-collapse: collapse;
     padding: 10px;
     font-size: 0.8cm;
@@ -92,9 +92,8 @@ table2, th, td {
 
 th{
     color: white;
-    background-color: #1796d1;
+    background-color: #08da47;
     font-weight: bold;
-    
     
 }
 
