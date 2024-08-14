@@ -45,7 +45,7 @@ body{
 
 h1{
     color: #112c66;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     font-size: 1cm;
     font-weight: bolder;
 }
@@ -53,14 +53,14 @@ h1{
 h2{
     text-align: left;
     color: rgb(97, 12, 235);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     font-size: 0.7cm;
     font-weight: bolder;
 }
 p{
     text-align: left;
     color: rgb(97, 12, 235);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman';
     font-size: 0.5cm;
 }
 
