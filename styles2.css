@@ -44,7 +44,7 @@ body{
 }
 
 h1{
-    color:  #22438c;
+    color: #22438c;
     font-family: 'Times New Roman';
     font-size: 0.8cm;
     font-weight: bolder;
@@ -83,7 +83,7 @@ table, td {
 
 th{
     color: white;
-    background-color: #22438c;
+    background-color: #bc3d78;
     font-weight: bold;
     margin: 0 auto;
     border: 1px solid white;
