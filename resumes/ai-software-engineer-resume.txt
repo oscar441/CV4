@@ -1,0 +1,31 @@
+Oscar Salgado Flores
+AI Software Engineer Resume
+
+Professional Summary
+Software engineer with experience developing AI-enabled applications and intelligent systems. Interested in building maintainable software that combines modern engineering practices with practical AI solutions.
+
+Core Areas
+- AI-enabled software development
+- Backend and full-stack applications
+- Product-oriented engineering
+- Educational technology platforms
+- Research-informed technical work
+
+Technical Skills
+Programming: Python, PHP, JavaScript, SQL, HTML, CSS
+Frameworks: Laravel, Flask
+Tools: Git, GitHub, Docker, Composer, XAMPP, Hostinger
+AI/ML: machine learning workflows, evaluation, classification, regression
+
+Experience Highlights
+- Developed web applications and software systems with both backend and front-end components
+- Applied AI and machine learning concepts in practical project work
+- Worked on educational technology-oriented systems and related software architecture
+- Collaborated on deployment, performance, and maintenance tasks
+
+Education
+- Master of Science in Information Technology
+- Bachelor of Civil Engineering
+
+Contact
+Email: oscar441@hotmail.com

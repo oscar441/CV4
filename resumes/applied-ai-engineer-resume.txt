@@ -1,0 +1,31 @@
+Oscar Salgado Flores
+Applied AI Engineer Resume
+
+Professional Summary
+Engineer with experience building applied AI systems, software products, and intelligent solutions for education and technical domains. Skilled in combining machine learning, software engineering, and practical problem solving.
+
+Core Areas
+- Applied AI and intelligent systems
+- Machine learning workflows and model development
+- Software engineering and web applications
+- Educational technology solutions
+- Technical communication and research
+
+Technical Skills
+Programming: Python, JavaScript, PHP, SQL, HTML, CSS
+AI/ML: Scikit-learn, regression, classification, feature engineering, evaluation
+Software Engineering: Laravel, Flask, Git, GitHub, Docker
+Deployment: Render, Hostinger, MySQL
+
+Experience Highlights
+- Built applied AI and software engineering projects with a focus on practical outcomes
+- Taught computer science and mathematics in English at university level
+- Contributed to research and technical writing in education and AI-related topics
+- Developed web and data-driven systems with an emphasis on maintainability and clarity
+
+Education
+- Master of Science in Information Technology
+- Bachelor of Civil Engineering
+
+Contact
+Email: oscar441@hotmail.com
