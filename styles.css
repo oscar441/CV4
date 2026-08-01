@@ -59,15 +59,40 @@ a:hover {
     position: sticky;
     top: 0;
     z-index: 1000;
-}
-
-.site-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
     max-width: 1100px;
     margin: 0 auto;
     padding: 0.7rem 1.1rem;
+}
+
+.site-nav {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem;
+}
+
+.site-header-brand {
+    text-align: right;
+    white-space: nowrap;
+    padding-left: 0.5rem;
+}
+
+.site-header-name {
+    font-size: 0.93rem;
+    font-weight: 700;
+    color: #0f172a;
+    letter-spacing: 0.01em;
+}
+
+.site-header-role {
+    font-size: 0.72rem;
+    color: #64748b;
+    margin-top: 0.1rem;
 }
 
 .site-nav a {
@@ -124,6 +149,52 @@ main {
     flex-wrap: wrap;
     gap: 0.6rem;
     margin-top: 0.8rem;
+}
+
+.hero-meta h3 {
+    color: #ffffff;
+    margin-bottom: 0.45rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.hero-meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-top: 0.9rem;
+}
+
+.meta-group {
+    padding: 0.2rem 0;
+}
+
+.meta-group h3 {
+    margin-bottom: 0.35rem;
+}
+
+.compact-list {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.project-meta-block {
+    display: grid;
+    gap: 0.55rem;
+    margin: 0.85rem 0 0.15rem;
+}
+
+.project-meta-block p {
+    margin: 0;
+}
+
+.skills-grid {
+    margin-top: 0.4rem;
+}
+
+.project-overview-grid {
+    margin: 0.9rem 0 1rem;
 }
 
 .button {
@@ -188,12 +259,22 @@ tr:nth-child(even) td {
 }
 
 @media (max-width: 768px) {
-    .highlight-grid, .projects-grid, .publications-grid {
+    .highlight-grid, .projects-grid, .publications-grid, .hero-meta {
         grid-template-columns: 1fr;
     }
 
+    .site-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .site-header-brand {
+        text-align: left;
+        padding-left: 0;
+    }
+
     .site-nav {
-        padding: 0.6rem 0.8rem;
+        padding: 0;
     }
 
     .hero, .content-card, .highlight-card, .intro-card, .project-card, .publication-card {
