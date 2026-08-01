@@ -66,6 +66,7 @@ a:hover {
     max-width: 1100px;
     margin: 0 auto;
     padding: 0.7rem 1.1rem;
+    flex-wrap: wrap;
 }
 
 .site-nav {
@@ -80,6 +81,7 @@ a:hover {
     text-align: right;
     white-space: nowrap;
     padding-left: 0.5rem;
+    min-width: 0;
 }
 
 .site-header-name {
@@ -90,9 +92,10 @@ a:hover {
 }
 
 .site-header-role {
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     color: #64748b;
     margin-top: 0.1rem;
+    letter-spacing: 0.01em;
 }
 
 .site-nav a {
@@ -258,11 +261,7 @@ tr:nth-child(even) td {
     background: #f8fbff;
 }
 
-@media (max-width: 768px) {
-    .highlight-grid, .projects-grid, .publications-grid, .hero-meta {
-        grid-template-columns: 1fr;
-    }
-
+@media (max-width: 900px) {
     .site-header {
         align-items: flex-start;
         flex-direction: column;
@@ -271,13 +270,40 @@ tr:nth-child(even) td {
     .site-header-brand {
         text-align: left;
         padding-left: 0;
+        width: 100%;
     }
 
     .site-nav {
         padding: 0;
+        width: 100%;
+    }
+
+    .site-header-role {
+        font-size: 0.62rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .highlight-grid, .projects-grid, .publications-grid, .hero-meta {
+        grid-template-columns: 1fr;
     }
 
     .hero, .content-card, .highlight-card, .intro-card, .project-card, .publication-card {
         padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header-name {
+        font-size: 0.86rem;
+    }
+
+    .site-header-role {
+        font-size: 0.58rem;
+    }
+
+    .site-nav a {
+        font-size: 0.84rem;
+        padding: 0.45rem 0.68rem;
     }
 }

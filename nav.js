@@ -33,7 +33,7 @@
     brand.className = 'site-header-brand';
     brand.innerHTML = `
       <div class="site-header-name">Oscar Salgado Flores</div>
-      <div class="site-header-role">Machine Learning Engineer | Applied AI Engineer</div>
+      <div class="site-header-role">Machine Learning Engineer | Applied AI Engineer | AI Software Engineer</div>
     `;
     header.appendChild(brand);
   }
